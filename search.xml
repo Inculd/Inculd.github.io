@@ -3,23 +3,23 @@
   
     
     <entry>
-      <title>我的第一盘</title>
-      <link href="/2018/11/29/Hello-pro/"/>
-      <url>/2018/11/29/Hello-pro/</url>
+      <title>html1</title>
+      <link href="/2018/11/29/html1/"/>
+      <url>/2018/11/29/html1/</url>
       
-        <content type="html"><![CDATA[<h3 id="hexo第一"><a href="#hexo第一" class="headerlink" title="hexo第一"></a>hexo第一</h3><a id="more"></a><p>diyi </p>]]></content>
+        <content type="html"><![CDATA[<h1 id="练习各种Makedown"><a href="#练习各种Makedown" class="headerlink" title="练习各种Makedown"></a>练习各种Makedown</h1><h2 id="练习一下"><a href="#练习一下" class="headerlink" title="练习一下"></a>练习一下</h2>]]></content>
       
       
       <categories>
           
-          <category> 第一 </category>
+          <category> 练习 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 第二 </tag>
+            <tag> -练习 </tag>
             
         </tags>
       

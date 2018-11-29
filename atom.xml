@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>In</title>
   
-  <subtitle>一天多进步一点点</subtitle>
+  <subtitle>每一天多进步一点点</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Inculd.github.io/"/>
-  <updated>2018-11-29T08:51:42.571Z</updated>
+  <updated>2018-11-29T13:31:20.367Z</updated>
   <id>https://Inculd.github.io/</id>
   
   <author>
@@ -17,24 +17,27 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>我的第一盘</title>
-    <link href="https://Inculd.github.io/2018/11/29/Hello-pro/"/>
-    <id>https://Inculd.github.io/2018/11/29/Hello-pro/</id>
-    <published>2018-11-29T08:47:56.000Z</published>
-    <updated>2018-11-29T08:51:42.571Z</updated>
+    <title>html1</title>
+    <link href="https://Inculd.github.io/2018/11/29/html1/"/>
+    <id>https://Inculd.github.io/2018/11/29/html1/</id>
+    <published>2018-11-29T12:34:12.000Z</published>
+    <updated>2018-11-29T13:31:20.367Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="hexo第一"><a href="#hexo第一" class="headerlink" title="hexo第一"></a>hexo第一</h3><a id="more"></a><p>diyi </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="练习各种Makedown"><a href="#练习各种Makedown" class="headerlink" title="练习各种Makedown"></a>练习各种Makedown</h1><h2 id="练习一下"><a href="#练习一下" class="headerlink" title="练习一下"></a>练习一下</h2>]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;hexo第一&quot;&gt;&lt;a href=&quot;#hexo第一&quot; class=&quot;headerlink&quot; title=&quot;hexo第一&quot;&gt;&lt;/a&gt;hexo第一&lt;/h3&gt;
+      
+      
+        &lt;h1 id=&quot;练习各种Makedown&quot;&gt;&lt;a href=&quot;#练习各种Makedown&quot; class=&quot;headerlink&quot; title=&quot;练习各种Makedown&quot;&gt;&lt;/a&gt;练习各种Makedown&lt;/h1&gt;&lt;h2 id=&quot;练习一下&quot;&gt;&lt;a href=&quot;#练习一下&quot; cla
+      
     
     </summary>
     
-      <category term="第一" scheme="https://Inculd.github.io/categories/%E7%AC%AC%E4%B8%80/"/>
+      <category term="练习" scheme="https://Inculd.github.io/categories/%E7%BB%83%E4%B9%A0/"/>
     
     
-      <category term="第二" scheme="https://Inculd.github.io/tags/%E7%AC%AC%E4%BA%8C/"/>
+      <category term="-练习" scheme="https://Inculd.github.io/tags/%E7%BB%83%E4%B9%A0/"/>
     
   </entry>
   
