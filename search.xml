@@ -3,23 +3,46 @@
   
     
     <entry>
-      <title>html1</title>
-      <link href="/2018/11/29/html1/"/>
-      <url>/2018/11/29/html1/</url>
+      <title>Html-2</title>
+      <link href="/2018/12/06/html-2/"/>
+      <url>/2018/12/06/html-2/</url>
       
-        <content type="html"><![CDATA[<h1 id="练习各种Makedown"><a href="#练习各种Makedown" class="headerlink" title="练习各种Makedown"></a>练习各种Makedown</h1><h2 id="练习一下"><a href="#练习一下" class="headerlink" title="练习一下"></a>练习一下</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="html基础"><a href="#html基础" class="headerlink" title="html基础"></a>html基础</h1><a id="more"></a><h3 id="img标签"><a href="#img标签" class="headerlink" title="img标签"></a>img标签</h3><p>&lt;img src=” “ alt=” “ &gt;  src–source–资源</p><p>src=” “引号里内容<br>1.网上url<br>2.本地绝对路径，图片与html不在同一文件夹里面<br>3.本地相对路径，图片与html在同一文件夹里面</p><p>alt=” “图片占位符，容错，当图片出错的时候，显示引号里面的内容</p><p>title=” “图片提示符，当鼠标移动至图片上，显示内容</p><h3 id="a标签"><a href="#a标签" class="headerlink" title="a标签"></a>a标签</h3><p>&lt;a href=” “ target=”blank”&gt;&lt;/a&gt;<br>href:hyperText reference 超文本引用</p><p></p><h4> 功能一：超级链接</h4><br>&lt;a href=”http://… “ target=”blank”&gt;<a href="http://www.baidu.com(给用户看的内容)" target="_blank" rel="noopener">www.baidu.com(给用户看的内容)</a> &lt;/a&gt;<br>href=”http://…(给浏览器所识别的内容) “:目标地址<br>target=”blank”：打开新网页，跳转到新网页<p></p><p></p><h4> 功能二：锚点</h4><br>&lt;div id=”demo1” style=” “&gt;demo1&lt;/div&gt;<br>&lt;a href=”#demo1”&gt;回到demo1&lt;/a&gt; - –记录id=”demo1”的位置，回到id=”demo1”<p></p><p></p><h4> 功能三：打电话/发送邮件</h4><br>拨打电话–&lt;a href=”tel:13966665555”&gt;拨打电话号码&lt;/a&gt;<br>发送邮件–&lt;a href=”mailto:<a href="mailto:123456@qq.com" target="_blank" rel="noopener">123456@qq.com</a>“&gt;发送邮件&lt;/a&gt;<p></p><p></p><h4> 功能四：协议限定符</h4><br>&lt;a href=”javascript:xxx”&gt;xxx&lt;/a&gt;<p></p><h3 id="form表单标签"><a href="#form表单标签" class="headerlink" title="form表单标签"></a>form表单标签</h3><p>&lt;form&gt; &lt;/form&gt; -发送数据,前端发送到后台<br><br>&lt;form method=”get/post “(发送数据方式) action=” “（数据接收地址）&gt;<br>&lt;input type=” text” name=” 输入框” value=” “&gt;<br>&lt;input type=”password” name=”密码框 “ value=” “&gt;<br>&lt;input type=”submit” name=”提交按钮” value=”login”&gt;<br>&lt;/form&gt;<br><strong>name:取名为了提交数值<br>value:传值给后台</strong></p><form><br><input type="text" name="输入框" value="输入框"><br><input type="password" name="密码框" value="密码框"><br><input type="submit" name="提交按钮" value="login"><br></form><br>&lt;form&gt;<br>&lt;input type=”radio” name=”多个同一名字” value=”数据值”&gt;—单选框<br>&lt;/form&gt;<br><form><br><input type="radio" name="提交按钮" value="login"><br><input type="radio" name="提交按钮" value="login"><br></form><br>&lt;form&gt;<br>&lt;input type=”checkbox” name=”多个同一名字” value=”数据值” checked=”checked”(默认选中)&gt;—复选框<br>&lt;/form&gt;<br><form><br><input type="checkbox" name="复选框1" value="login" checked="checked"><br><input type="checkbox" name="复选框2" value="login"><br></form><br>&lt;form&gt;<br>  &lt;select name=”下拉菜单” value=””&gt;<br>      &lt;option&gt;&lt;/option&gt;<br>      &lt;option&gt;&lt;/option&gt;<br>  &lt;/select&gt;<br>&lt;/form&gt; -下拉菜单<br><form><br>      <select><br>            <option>1</option><br>            <option>2</option><br>      </select><br></form>]]></content>
       
       
       <categories>
           
-          <category> 练习 </category>
+          <category> HTML基础知识 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> -练习 </tag>
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Html-1</title>
+      <link href="/2018/12/06/html-1/"/>
+      <url>/2018/12/06/html-1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="html基础"><a href="#html基础" class="headerlink" title="html基础"></a>html基础</h1><p>html:hyper Text markup language 超文本标记语言<br><a id="more"></a></p><h2 id="普通标签"><a href="#普通标签" class="headerlink" title="普通标签"></a>普通标签</h2><pre><code>&lt;html&gt;&lt;/html&gt;根标签   &lt;head&gt;&lt;/head&gt;网页的思想，让浏览器所识别&lt;body&gt;&lt;/body&gt;网页的外观，人们直观可见&lt;title&gt;页角标&lt;/title&gt;标题标签&lt;h1&gt;&lt;/h1&gt;标题标签 1--6  依次递减&lt;p&gt;&lt;/p&gt;段落标签&lt;br&gt;换行符&lt;hr&gt;水平线分割符&lt;div&gt;&lt;/div&gt;独处一行，无其他特效&lt;span&gt;&lt;/span&gt;}{}作用：是一种代码的容器，让代码更加规格化1.利于后期代码的维护2.捆绑操作&lt;strong&gt;&lt;/strong&gt;使内容加粗&lt;em&gt;&lt;/em&gt;使内容斜体</code></pre><p>   <strong><em>使内容加粗和斜体</em></strong><br><del>(del) 50$ (del)</del></p><address>(address)地址标签，成段落出现，斜体形式(/address)</address><h2 id="知识扩展"><a href="#知识扩展" class="headerlink" title="知识扩展"></a>知识扩展</h2><p>web前端三大要素相分离：html（结构）,js（行为）,css（样式）</p><p>&lt;html lang(属性名)=”引号里的内容主要是告诉搜索引擎爬虫本网站是关于什么内容”（属性名）&gt;</p><p>空格/回车符：分割符（无论几个空格，只会分割一次）<br>&nbsp;–空格符</p><p>&lt;div&gt;<br>     &lt;–小于–less than– &amp; lt;<br>     &gt;–大于–great than–&amp; gt;<br>&lt;/div&gt;</p><p>&lt;head&gt;<br>&lt;meta charest=”utf-8”&gt;<br>1.gb2312:中国标准的编码字符集，适用于亚裔的字符集,缺点不能够识别繁体字<br>2.gbk:中国标准的编码字符集的升级版，能够识别繁体字符集<br>3.unicode:万国码<br>4.utf-8：升级版的万国码，现在常用的字符集编码<br>&lt;/head&gt;</p><p>control+?  添加注释快捷键<!--注释-->用于备注，调试</p><p><strong>主流浏览器分为内核(Rendering Engine)和外壳（shell）</strong></p><table><thead><tr><th style="text-align:center">主流浏览器</th><th style="text-align:center">内核</th></tr></thead><tbody><tr><td style="text-align:center">IE</td><td style="text-align:center">trident</td></tr><tr><td style="text-align:center">Firefox</td><td style="text-align:center">Gecko</td></tr><tr><td style="text-align:center">Google chrome</td><td style="text-align:center">webkit/blink-14年</td></tr><tr><td style="text-align:center">Opera</td><td style="text-align:center">presto</td></tr><tr><td style="text-align:center">Safair</td><td style="text-align:center">webkit</td></tr></tbody></table><h2 id="常用单标签"><a href="#常用单标签" class="headerlink" title="常用单标签"></a>常用单标签</h2><pre><code>&lt;meta&gt; &lt;br&gt; &lt;hr&gt; &lt;img&gt;</code></pre><h2 id="有序-无序列表标签"><a href="#有序-无序列表标签" class="headerlink" title="有序/无序列表标签"></a>有序/无序列表标签</h2><p></p><h3>有序列表标签</h3><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&lt;ol&gt;  ol--order list</span><br><span class="line">    &lt;li&gt;&lt;/li&gt;</span><br><span class="line">    &lt;li&gt;&lt;/li&gt;</span><br><span class="line">&lt;/ol&gt;</span><br><span class="line"></span><br><span class="line">&lt;ol type=&quot;&quot; &gt;</span><br><span class="line">&quot; &quot;1.引号里面默认值为1，ol将按照1，2，3排列下去</span><br><span class="line">&quot; &quot;2.在引号里面输入a，ol将按照a,b,c排列下去</span><br><span class="line">&quot; &quot;3.在引号里面输入A，ol将按照A,B,C排列下去</span><br><span class="line">&quot; &quot;4.在引号里面输入i，ol将按照i,ii,iii,iv,v,vi排列下去--罗马数字</span><br><span class="line">&quot; &quot;5.在引号里面输入I，ol将按照I,II,III,IV,V,VI排列下去--罗马数字</span><br><span class="line">&lt;/ol&gt;</span><br><span class="line"></span><br><span class="line">&lt;ol type=&quot;&quot; reversed=&quot;reversed&quot; start=&quot;12&quot;&gt;</span><br><span class="line">reversed=&quot;reversed&quot;倒序排列</span><br><span class="line">start=&quot;12&quot;:排序将从第12位开始，数字代表位数</span><br><span class="line">&lt;/ol&gt;</span><br></pre></td></tr></table></figure><p></p><p></p><h3>无序列表标签</h3><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;ul&gt; ul--unorder list</span><br><span class="line">    &lt;li&gt;&lt;/li&gt;</span><br><span class="line">    &lt;li&gt;&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br><span class="line"></span><br><span class="line">&lt;ul type=&quot;&quot;&gt;</span><br><span class="line">&quot;&quot;引号默认值为：disc--discircle--实心圆 ： square--方块 ： circle--空心圆</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure><p></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> HTML基础知识 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
             
         </tags>
       
