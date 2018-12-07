@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://Inculd.github.io/"/>
-  <updated>2018-12-06T16:13:06.937Z</updated>
+  <updated>2018-12-07T11:41:56.456Z</updated>
   <id>https://Inculd.github.io/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>css-2</title>
+    <link href="https://Inculd.github.io/2018/12/07/css-2/"/>
+    <id>https://Inculd.github.io/2018/12/07/css-2/</id>
+    <published>2018-12-07T07:45:30.000Z</published>
+    <updated>2018-12-07T11:41:56.456Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="css基础"><a href="#css基础" class="headerlink" title="css基础"></a>css基础</h1><a id="more"></a><h3 id="引入css"><a href="#引入css" class="headerlink" title="引入css"></a>引入css</h3><p><strong>浏览器识别标签原理，自左向右，从子标签向父标签识别</strong></p><h4 id="父子选择器-派生选择器"><a href="#父子选择器-派生选择器" class="headerlink" title="父子选择器/派生选择器"></a>父子选择器/派生选择器</h4><p>父子选择器/派生选择器：重点在父子关系，无论标签形式</p><table><thead><tr><th style="text-align:center">html</th><th style="text-align:center">css</th></tr></thead><tbody><tr><td style="text-align:center">&lt;div id=”demo1” &gt;&lt;span&gt;&lt;/span&gt;&lt; /div&gt;</td><td style="text-align:center">div span{}</td></tr></tbody></table><h4 id="直接子元素选择器"><a href="#直接子元素选择器" class="headerlink" title="直接子元素选择器"></a>直接子元素选择器</h4><table><thead><tr><th style="text-align:center">html</th><th style="text-align:center">css</th></tr></thead><tbody><tr><td style="text-align:center">&lt;div  &gt;&lt;em&gt;&lt;/em&gt;&lt; /div&gt;</td><td style="text-align:center">div &gt;em{}</td></tr></tbody></table><h4 id="并列选择器"><a href="#并列选择器" class="headerlink" title="并列选择器"></a>并列选择器</h4><p><strong>并列选择器：同一排选择器，权重值相加</strong></p><table><thead><tr><th style="text-align:center">html</th><th style="text-align:center">css</th></tr></thead><tbody><tr><td style="text-align:center">&lt; div &gt;1&lt;/div&gt;<br>&lt;div class=”de”&gt;2&lt;/div&gt;<br>&lt;p class=”de”&gt;3&lt;/p&gt;</td><td style="text-align:center">div.de{}</td></tr></tbody></table><h4 id="分组选择器"><a href="#分组选择器" class="headerlink" title="分组选择器"></a>分组选择器</h4><table><thead><tr><th style="text-align:center">html</th><th style="text-align:center">css</th></tr></thead><tbody><tr><td style="text-align:center">&lt; em &gt;&lt;/em&gt;<br>&lt;strong&gt;&lt;/strong&gt;<br>&lt;span&gt;&lt;/span&gt;</td><td style="text-align:center">em,strong,span{}</td></tr><tr><td style="text-align:center">&lt; em &gt;&lt;/em&gt;<br>&lt;strong&gt;&lt;/strong&gt;<br>&lt;span&gt;&lt;/span&gt;</td><td style="text-align:center">em,<br>strong,<br>span{}</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;css基础&quot;&gt;&lt;a href=&quot;#css基础&quot; class=&quot;headerlink&quot; title=&quot;css基础&quot;&gt;&lt;/a&gt;css基础&lt;/h1&gt;
+    
+    </summary>
+    
+      <category term="css基础知识" scheme="https://Inculd.github.io/categories/css%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+    
+      <category term="css" scheme="https://Inculd.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css-1</title>
+    <link href="https://Inculd.github.io/2018/12/07/css-1/"/>
+    <id>https://Inculd.github.io/2018/12/07/css-1/</id>
+    <published>2018-12-07T06:43:38.000Z</published>
+    <updated>2018-12-07T08:28:12.643Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="css基础"><a href="#css基础" class="headerlink" title="css基础"></a>css基础</h1><p>css:cascading style sheet 层叠 样式 表<br><a id="more"></a></p><h3 id="引入css"><a href="#引入css" class="headerlink" title="引入css"></a>引入css</h3><h4 id="行间样式"><a href="#行间样式" class="headerlink" title="行间样式"></a>行间样式</h4><p>&lt; div style=” “ &gt;&lt; /div &gt;</p><h4 id="页面样式"><a href="#页面样式" class="headerlink" title="页面样式"></a>页面样式</h4><p>&lt; head &gt;<br>    &lt;style type=”text/css” &gt;内容&lt;/style &gt;<br>&lt; head &gt;</p><h4 id="外部css文件"><a href="#外部css文件" class="headerlink" title="外部css文件"></a>外部css文件</h4><p>&lt; head &gt;<br>    &lt; link rel=”stylesheet” type=”text/css” href=”地址” &gt;<br>&lt; /head &gt;</p><h3 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h3><h4 id="id选择器–一对一"><a href="#id选择器–一对一" class="headerlink" title="id选择器–一对一"></a>id选择器–一对一</h4><table><thead><tr><th style="text-align:center">html</th><th style="text-align:center">css</th></tr></thead><tbody><tr><td style="text-align:center">&lt;div id=”demo1” &gt;&lt; /div&gt;</td><td style="text-align:center">#demo1{}</td></tr></tbody></table><h4 id="class选择器–多对一"><a href="#class选择器–多对一" class="headerlink" title="class选择器–多对一"></a>class选择器–多对一</h4><table><thead><tr><th style="text-align:center">html</th><th style="text-align:center">css</th></tr></thead><tbody><tr><td style="text-align:center">&lt;div class=”demo1” &gt;&lt; /div&gt;</td><td style="text-align:center">.demo1{}</td></tr><tr><td style="text-align:center">&lt;div class=”demo1 demo2” &gt;&lt; /div&gt;</td><td style="text-align:center">.demo1{}<br>.demo2</td></tr></tbody></table><h4 id="标签选择器"><a href="#标签选择器" class="headerlink" title="标签选择器"></a>标签选择器</h4><table><thead><tr><th style="text-align:center">html</th><th style="text-align:center">css</th></tr></thead><tbody><tr><td style="text-align:center">&lt;div  &gt;&lt; /div&gt;</td><td style="text-align:center">div{}</td></tr></tbody></table><h4 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h4><table><thead><tr><th style="text-align:center">html</th><th style="text-align:center">css</th></tr></thead><tbody><tr><td style="text-align:center">&lt;div  &gt;&lt; /div&gt;<br>&lt;span  &gt;&lt; /span&gt;</td><td style="text-align:center">*{}</td></tr></tbody></table><h4 id="属性选择器"><a href="#属性选择器" class="headerlink" title="属性选择器"></a>属性选择器</h4><table><thead><tr><th style="text-align:center">html</th><th style="text-align:center">css</th></tr></thead><tbody><tr><td style="text-align:center">&lt;div  &gt;[id=”名”]&lt; /div&gt;</td><td style="text-align:center">只要是相同的id那么就应用该样式</td></tr><tr><td style="text-align:center"></td><td style="text-align:center">css样式{··· ！inpotant}最高优先级</td></tr></tbody></table><p><strong><br>class=属性选择器，二者是同一级关系，谁在后出现，将是后者覆盖前者<br>id选择器&gt;class选择器&gt;标签选择器&gt;通配符<br>！inportant&gt;行间样式&gt;id选择器&gt;class选择器=属性选择器&gt;标签选择器&gt;通配符<br></strong></p><h3 id="css权重"><a href="#css权重" class="headerlink" title="css权重"></a>css权重</h3><table><thead><tr><th style="text-align:center"></th><th style="text-align:center"></th></tr></thead><tbody><tr><td style="text-align:center">!inportant</td><td style="text-align:center">Infinity(正无穷)256进制</td></tr><tr><td style="text-align:center">行间样式</td><td style="text-align:center">1000</td></tr><tr><td style="text-align:center">id选择器</td><td style="text-align:center">100</td></tr><tr><td style="text-align:center">class选择器/属性选择器/伪类标签</td><td style="text-align:center">10</td></tr><tr><td style="text-align:center">标签选择器/伪元素</td><td style="text-align:center">1</td></tr><tr><td style="text-align:center">通配符</td><td style="text-align:center">0</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;css基础&quot;&gt;&lt;a href=&quot;#css基础&quot; class=&quot;headerlink&quot; title=&quot;css基础&quot;&gt;&lt;/a&gt;css基础&lt;/h1&gt;&lt;p&gt;css:cascading style sheet 层叠 样式 表&lt;br&gt;
+    
+    </summary>
+    
+      <category term="css基础知识" scheme="https://Inculd.github.io/categories/css%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+    
+      <category term="css" scheme="https://Inculd.github.io/tags/css/"/>
+    
+  </entry>
   
   <entry>
     <title>Html-2</title>
