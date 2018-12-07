@@ -133,7 +133,7 @@
 <meta property="og:site_name" content="In">
 <meta property="og:description" content="css基础">
 <meta property="og:locale" content="zh-Fans">
-<meta property="og:updated_time" content="2018-12-07T11:41:56.456Z">
+<meta property="og:updated_time" content="2018-12-07T15:28:14.925Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="css-2">
 <meta name="twitter:description" content="css基础">
@@ -433,7 +433,7 @@
 
       
         <h1 id="css基础"><a href="#css基础" class="headerlink" title="css基础"></a>css基础</h1><a id="more"></a>
-<h3 id="引入css"><a href="#引入css" class="headerlink" title="引入css"></a>引入css</h3><p><strong>浏览器识别标签原理，自左向右，从子标签向父标签识别</strong></p>
+<h3 id="css选择器"><a href="#css选择器" class="headerlink" title="css选择器"></a>css选择器</h3><p><strong>浏览器识别标签原理，自左向右，从子标签向父标签识别</strong></p>
 <h4 id="父子选择器-派生选择器"><a href="#父子选择器-派生选择器" class="headerlink" title="父子选择器/派生选择器"></a>父子选择器/派生选择器</h4><p>父子选择器/派生选择器：重点在父子关系，无论标签形式</p>
 <table>
 <thead>
@@ -496,6 +496,24 @@
 </tr>
 </tbody>
 </table>
+<h4 id="伪类选择器"><a href="#伪类选择器" class="headerlink" title="伪类选择器"></a>伪类选择器</h4><table>
+<thead>
+<tr>
+<th style="text-align:center">html</th>
+<th style="text-align:center">css</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&lt;a href=”<a href="http://www.baidu.com&quot;&gt;www.baidu.com" target="_blank" rel="noopener">www.baidu.com&quot;&gt;www.baidu.com</a>&lt; /a&gt;</td>
+<td style="text-align:center">a=[href]当鼠标移动上去显示的效果{background-color:orange;}</td>
+</tr>
+</tbody>
+</table>
+<h3 id="常用选择器总结"><a href="#常用选择器总结" class="headerlink" title="常用选择器总结"></a>常用选择器总结</h3><h4 id="行级元素–inline–内联元素"><a href="#行级元素–inline–内联元素" class="headerlink" title="行级元素–inline–内联元素"></a>行级元素–inline–内联元素</h4><p>feature：内容决定元素所占位置<br>         不可以通过css改变宽高<br>实例：span  strong  em   a   del</p>
+<h4 id="块级元素–block"><a href="#块级元素–block" class="headerlink" title="块级元素–block"></a>块级元素–block</h4><p>feature：独占一行<br>         可以通过css改变样式<br>实例:div  p  ul  li  ol  form  address </p>
+<h4 id="行块级元素–-inline-block"><a href="#行块级元素–-inline-block" class="headerlink" title="行块级元素– inline-block"></a>行块级元素– inline-block</h4><p>feature:内容决定大小<br>        可以改变宽高<br>实例：&lt;img src=” “&gt;123</p>
+<h3 id="css常用样式"><a href="#css常用样式" class="headerlink" title="css常用样式"></a>css常用样式</h3><p><strong><br>div {<br>    font-size:12px;字体大小<br>    font-weight:bold;加粗<br>    font-style:italic;斜体<br>    font-family:arial(通用字体)；字体<br>    border(边框):1px(边框粗细) solid(边框实心) black(颜色)；—-transparent:透明色<br>    border-width：<br>    border-style:<br>    border-color:<br>    text-align: ;对齐方式<br>    line-height:16px;===height:16px;  单行文本所占高度<br>    line-height:2em;单行文本水平垂直居中<br>    text-indent:2em;首行缩进<br>    text-decoration(文本装饰):line-through(中横线)/none(初始化)/underline(下划线/overline(上划线));<br>    cursor(鼠标移动上去，鼠标显示的效果)：pointer/hlep；<br>}<br></strong></p>
 
       
     </div>
@@ -691,7 +709,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#css基础"><span class="nav-number">1.</span> <span class="nav-text">css基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#引入css"><span class="nav-number">1.0.1.</span> <span class="nav-text">引入css</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#父子选择器-派生选择器"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">父子选择器/派生选择器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#直接子元素选择器"><span class="nav-number">1.0.1.2.</span> <span class="nav-text">直接子元素选择器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#并列选择器"><span class="nav-number">1.0.1.3.</span> <span class="nav-text">并列选择器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分组选择器"><span class="nav-number">1.0.1.4.</span> <span class="nav-text">分组选择器</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#css基础"><span class="nav-number">1.</span> <span class="nav-text">css基础</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#css选择器"><span class="nav-number">1.0.1.</span> <span class="nav-text">css选择器</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#父子选择器-派生选择器"><span class="nav-number">1.0.1.1.</span> <span class="nav-text">父子选择器/派生选择器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#直接子元素选择器"><span class="nav-number">1.0.1.2.</span> <span class="nav-text">直接子元素选择器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#并列选择器"><span class="nav-number">1.0.1.3.</span> <span class="nav-text">并列选择器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分组选择器"><span class="nav-number">1.0.1.4.</span> <span class="nav-text">分组选择器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#伪类选择器"><span class="nav-number">1.0.1.5.</span> <span class="nav-text">伪类选择器</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#常用选择器总结"><span class="nav-number">1.0.2.</span> <span class="nav-text">常用选择器总结</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#行级元素–inline–内联元素"><span class="nav-number">1.0.2.1.</span> <span class="nav-text">行级元素–inline–内联元素</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#块级元素–block"><span class="nav-number">1.0.2.2.</span> <span class="nav-text">块级元素–block</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#行块级元素–-inline-block"><span class="nav-number">1.0.2.3.</span> <span class="nav-text">行块级元素– inline-block</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#css常用样式"><span class="nav-number">1.0.3.</span> <span class="nav-text">css常用样式</span></a></li></ol></li></ol></div>
             
 
           </div>
